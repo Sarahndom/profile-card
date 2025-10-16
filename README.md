@@ -20,7 +20,4 @@ A responsive, accessible Profile Card built with **HTML**, **CSS**, and **JavaSc
 ## 💻 How to Run Locally
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/hng-stage0-profile-card.git
-
-What will i name this read me file on my vs code
-
+   git clone https://github.com/Sarahndom/profile-card.git
