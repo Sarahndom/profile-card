@@ -15,7 +15,7 @@ A responsive, accessible Profile Card built with **HTML**, **CSS**, and **JavaSc
 - Vanilla JavaScript  
 
 ## 🖼️ Live Demo
-🔗 [View Live on Netlify](https://your-netlify-link.netlify.app)
+🔗 [View Live on Netlify] (https://accessible-profile-card.netlify.app)
 
 ## 💻 How to Run Locally
 1. Clone the repo:
