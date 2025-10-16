@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <main>
+        <article data-testid="test-profile-card" class="profile-card">
+            <figure class="avatar-container">
+                <img src="../images/10491830.jpg" alt="portrait of an Avatar" data-testid="test-user-avatar" />
+            </figure>
+
+            <div class="profile-info">
+                <header>
+                    <h2 data-testid="test-user-name">SarahN</h2>
+                    <button class="follow-btn" aria-label="Follow user">Follow</button>
+                </header>
+
+                <p data-testid="test-user-bio">
+                    Passionate about creating clean, responsive, and user-friendly web
+                    experiences while continuously growing my skills.
+                </p>
+
+                <p>
+                    Current time (ms):
+                    <span data-testid="test-user-time" id="current-time"></span>
+                </p>
+
+                <section data-testid="test-user-hobbies">
+                    <h3>Hobbies</h3>
+                    <ul>
+                        <li>Singing</li>
+                        <li>Coding</li>
+                        <li>Reading</li>
+                        <li>Some quiet alone time</li>
+                    </ul>
+                </section>
+
+                <section data-testid="test-user-dislikes">
+                    <h3>Dislikes</h3>
+                    <ul>
+                        <li>Loud noises</li>
+                        <li>Procrastination</li>
+                        <li>Dark Rooms</li>
+                    </ul>
+                </section>
+
+                <nav aria-label="Social links" data-testid="test-user-social-links">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/sarah-ndom001" target="_blank"
+                                rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Sarahndom" target="_blank" rel="noopener noreferrer"
+                                data-testid="test-user-social-github">GitHub</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </article>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
