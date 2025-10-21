@@ -6,20 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Card</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/profile-card/index.css" />
 </head>
 
 <body>
     <main>
         <article data-testid="test-profile-card" class="profile-card">
             <figure class="avatar-container">
-                <img src="./images/10491830 - Copy.jpg" alt="portrait of an Avatar" data-testid="test-user-avatar" />
+                <img src="/profile-card/images/profile.jpg" alt="portrait of an Avatar"
+                    data-testid="test-user-avatar" />
             </figure>
 
             <div class="profile-info">
-                <header>
-                    <h2 data-testid="test-user-name">SarahN</h2>
-                    <button class="follow-btn" aria-label="Follow user">Follow</button>
+
+                <header class="profile-header">
+
+                    <nav>
+                        <ul>
+                            <li><a href="/profile-card/index.html">Home (Profile)</a></li>
+                            <li><a href="/profile-card/about.html">About Me</a></li>
+                            <li><a href="/profile-card/contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+
+                    <div>
+
+                        <h2 data-testid="test-user-name">SarahN</h2>
+                        <button class="follow-btn" aria-label="Follow user">Follow</button>
+
+                    </div>
+
                 </header>
 
                 <p data-testid="test-user-bio">
