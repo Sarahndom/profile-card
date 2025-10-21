@@ -54,7 +54,6 @@
  }
 
 
-
  h2[data-testid="test-user-name"] {
      font-size: 1.6rem;
      font-weight: 600;
@@ -167,11 +166,6 @@
  }
 
 
-
-
-
-
-
  .error-message {
      color: red;
      font-size: 0.9em;
@@ -214,7 +208,6 @@
 
 
 
-
  a:focus,
  button:focus,
  input:focus,
@@ -239,4 +232,123 @@
      font-size: 2rem;
      color: #0077ff;
      margin: 20px;
+ }
+
+
+
+
+
+ main.test-contact-page {
+     max-width: 600px;
+     margin: 40px auto;
+     padding: 20px;
+     font-family: Arial, sans-serif;
+ }
+
+ label {
+     display: block;
+     margin-top: 12px;
+     font-weight: bold;
+ }
+
+
+ input[type="text"],
+ input[type="email"],
+ textarea {
+     width: 100%;
+     padding: 12px;
+     font-size: 1rem;
+     box-sizing: border-box;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     margin-top: 4px;
+ }
+
+ textarea {
+     height: 100px;
+     resize: vertical;
+
+ }
+
+
+ button[type="submit"] {
+     margin-top: 15px;
+     padding: 10px 20px;
+     font-size: 1rem;
+     border: none;
+     border-radius: 6px;
+     background-color: #007bff;
+     color: white;
+     cursor: pointer;
+ }
+
+ button[type="submit"]:hover {
+     background-color: #0056b3;
+ }
+
+
+ .error-message {
+     color: red;
+     font-size: 0.9rem;
+     margin-top: 4px;
+ }
+
+
+
+
+ main.test-contact-page {
+     max-width: 600px;
+     margin: 40px auto;
+     padding: 20px;
+     font-family: Arial, sans-serif;
+ }
+
+
+ label {
+     display: block;
+     margin-top: 12px;
+     font-weight: bold;
+ }
+
+
+ input[type="text"],
+ input[type="email"],
+ textarea {
+     width: 100%;
+     padding: 12px;
+     font-size: 1rem;
+     box-sizing: border-box;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     margin-top: 4px;
+ }
+
+
+ textarea {
+     height: 150px;
+     resize: vertical;
+ }
+
+
+ button[type="submit"] {
+     margin-top: 15px;
+     padding: 10px 20px;
+     font-size: 1rem;
+     border: none;
+     border-radius: 6px;
+     background-color: #007bff;
+     color: white;
+     cursor: pointer;
+ }
+
+
+ button[type="submit"]:hover {
+     background-color: #0056b3;
+ }
+
+
+ .error-message {
+     color: red;
+     font-size: 0.9rem;
+     margin-top: 4px;
  }
