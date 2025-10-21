@@ -41,7 +41,7 @@ A responsive, accessible multi-page profile site built for the HNG Internship (S
 
 🖼️ Live Demo
 
-🔗 **[View Live on Netlify] (https://accessible-profile-card.netlify.app)**
+🔗 **[View Live on Netlify] (https://hng-project-profile-card.netlify.app/)**
 
 
 💻 How to Run Locally
