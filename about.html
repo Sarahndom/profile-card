@@ -5,25 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-
     <header>
         <nav>
             <ul>
-                <li><a href="./index.html">Home (Profile)</a></li>
-
-                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="./index.html">Profile</a></li>
+                <li><a href="./about.html" class="active">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main data-testid="test-about-page">
-
+    <main data-testid="test-about-page" class="about-wrapper">
         <h1>About Me</h1>
-
         <section data-testid="test-about-bio">
             <h2>My Bio</h2>
             <p>
@@ -54,7 +54,6 @@
         <section data-testid="test-about-confidence">
             <h2>Areas of Low Confidence</h2>
             <p>
-
                 One area I'm still building confidence in is JavaScript — especially when it comes to problem-solving
                 and writing more efficient code.
                 I'm hoping to improve this by practicing regularly, working on small projects, and learning from other
@@ -70,20 +69,19 @@
                 Don't forget the excitement you felt when you wrote your first lines of code, or the determination that
                 kept you going when things got tough.
                 Keep learning, stay curious, and never lose the passion that made you fall in love with building for the
-                web in the first place." </blockquote>
+                web in the first place."
+            </blockquote>
         </section>
 
         <section data-testid="test-about-extra">
             <h2>Extra Thoughts</h2>
             <p>
-
                 I'm really enjoying the process of learning and growing as a developer. Every challenge teaches me
                 something new, and I’m learning to be patient with myself as I improve.
                 It’s exciting to see how small bits of progress add up over time. I’m looking forward to continuing this
                 journey and building projects that I can be proud of.
             </p>
         </section>
-
     </main>
 </body>
 

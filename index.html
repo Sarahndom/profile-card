@@ -5,35 +5,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Card</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
-    <main>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html" class="active">Profile</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="profile-wrapper">
         <article data-testid="test-profile-card" class="profile-card">
+
+            <div class="profile-banner"></div>
+
             <figure class="avatar-container">
-                <img src="./images/profile.jpg" alt="portrait of an Avatar" data-testid="test-user-avatar" />
+                <img src="./images/profile.jpg" alt="portrait of SarahN" data-testid="test-user-avatar" />
             </figure>
 
             <div class="profile-info">
 
                 <header class="profile-header">
-
-                    <nav>
-                        <ul>
-                            <li><a href="./about.html">About Me</a></li>
-                            <li><a href="./contact.html">Contact Us</a></li>
-                        </ul>
-                    </nav>
-
-                    <div>
-
-                        <h2 data-testid="test-user-name">SarahN</h2>
-                        <button class="follow-btn" aria-label="Follow user">Follow</button>
-
-                    </div>
-
+                    <h2 data-testid="test-user-name">SarahN</h2>
+                    <button class="follow-btn" aria-label="Follow user">Follow</button>
                 </header>
 
                 <p data-testid="test-user-bio">
@@ -41,10 +43,10 @@
                     experiences while continuously growing my skills.
                 </p>
 
-                <p>
-                    Current time (ms):
-                    <span data-testid="test-user-time" id="current-time"></span>
-                </p>
+                <div class="time-box" data-testid="test-user-time-box">
+                    <span>Current Time (UTC)</span>
+                    <strong data-testid="test-user-time" id="current-time"></strong>
+                </div>
 
                 <section data-testid="test-user-hobbies">
                     <h3>Hobbies</h3>
@@ -68,8 +70,8 @@
                 <nav aria-label="Social links" data-testid="test-user-social-links">
                     <ul>
                         <li>
-                            <a href="https://www.linkedin.com/in/sarah-ndom001" target="_blank"
-                                rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a>
+                            <a href="https.www.linkedin.com/in/sarah-ndom001" target="_blank" rel="noopener noreferrer"
+                                data-testid="test-user-social-linkedin">LinkedIn</a>
                         </li>
                         <li>
                             <a href="https://github.com/Sarahndom" target="_blank" rel="noopener noreferrer"
@@ -81,7 +83,7 @@
         </article>
     </main>
 
-    <script src="index.js"></script>
+    <script src="profile.js"></script>
 </body>
 
 </html>
